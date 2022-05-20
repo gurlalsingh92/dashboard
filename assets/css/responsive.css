@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@media only screen and (max-width:1365px){
+    .mainHeader .container {
+        padding: 0 15px;
+    }
+       
+}
+@media only screen and (max-width:991px){
+        .menuArea .navbar .navbar-nav .nav-item .nav-link {
+
+	font-size: 15px;
+}
+.menuArea .navbar-toggler {
+	border: 0;
+	box-shadow: none;
+	padding: 0;
+}
+.menuArea .navbar-toggler .navbar-toggler-icon {
+	height: 4px;
+	background: #FFF;
+	position: relative;
+	margin: 15px 0;
+	border-radius: 4px;
+}
+.menuArea .navbar-toggler .navbar-toggler-icon::before {
+	content: "";
+	width: 45px;
+	height: 4px;
+	background: #FFF;
+	position: absolute;
+	top: -15px;
+	left: 0;
+	border-radius: 5px;
+}
+.menuArea .navbar-toggler .navbar-toggler-icon::after {
+	content: "";
+	width: 45px;
+	height: 4px;
+	background: #FFF;
+	position: absolute;
+	bottom: -15px;
+	left: 0;
+	border-radius: 5px;
+}
+    .menuArea #navbarNav {
+	background: #192233;
+	width: 250px;
+	position: absolute;
+	top: 87px;
+	margin-left: 1px;
+	padding: 25px;
+	border-radius: 10px;
+}
+    .menuArea #navbarNav .navbar-nav li {
+	padding: 15px 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+    .menuArea #navbarNav .navbar-nav li:last-child{
+        border:0 none;
+    }
+    .menuArea .navbar .navbar-nav .nav-item .nav-link::after {
+	bottom: -16px;
+}
+ 
+    .mainHeader .navbar-brand {
+	top: 15px;
+	width: 130px;
+}
+    .mainHeader .navbar-brand img{
+        max-width: 100%;
+    }
+
+
+    .navbar-brand::after {
+
+    left: -60px;
+}
+}
+@media only screen and (max-width:767px){
+    .buttonGroup .btn:first-child {
+        display: none;
+    }
+    .navbar-brand::after {
+	width: 205px;
+}
+
+
+
+
+
+    .menuArea #navbarNav {
+
+	width: calc(100vw - 30px);
+	top: 55px;
+	margin-left: 0px;
+	padding: 25px;
+	border-radius: 20px;
+	border: 0 solid rgba(255, 255, 255, 0.5);
+	box-shadow: 0px -3px 5px rgba(255, 255,255, 0.5);
+	z-index: 9;
+}
+  
+}
+@media only screen and (max-width:413px){
+    header .defaultBtn {
+	padding: 10px 5px;
+	font-size: 12px;
+	height: 40px;
+}
+    header .defaultBtn img {
+	margin: ;
+	margin-left: 4px;
+	width: 16px;
+}
+    .mainHeader .navbar-brand {
+	top: 15px;
+	width: 100px;
+}
+    .navbar-brand::after {
+	width: 165px;
+	bottom: -38px;
+	background-size: contain;
+	height: 40px;
+}
+    .mainHeader .d-flex {
+	height: 107px;
+}
+   
+    
+
+}

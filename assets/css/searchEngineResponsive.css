@@ -1,0 +1,766 @@
+@charset "UTF-8";
+ @media only screen and (min-width:1200px) and (max-width:1439px){
+     .buttonArea .catSelect select {
+         width: 50px;
+         border: 2px solid #192233;
+         padding: 15px 5px;
+         background: url(../images/searchEngine/downArrow.png) right 5px center no-repeat #FFF;
+    }
+     .shopProduct button {
+         padding: 12px 15px;
+    }
+}
+ @media only screen and (max-width:1399px){
+     .addressWrap .address {
+         max-width: 300px;
+    }
+     .calanderIcon {
+         width: 35px;
+         height: 35px;
+         right: -30px;
+         top: 4px;
+    }
+     .calanderIcon img{
+         max-width: 15px;
+    }
+}
+ @media only screen and (max-width:1365px){
+     .loginPage::before {
+         width: 250px;
+         height: 300px;
+         background-size: cover;
+    }
+     .loginPage {
+         padding: 45px 0;
+    }
+     .tabsMain button {
+         font-size: 14px;
+    }
+     .tabsMain button::before {
+         top: -3px !important;
+         background-size: 171px !important;
+    }
+     .headingTime {
+         padding: 10px 15px;
+         font-size: 18px;
+    }
+     .timeSlot .headingTime img {
+         max-width: 18px;
+    }
+     .calText {
+         padding: 15px;
+    }
+     .prices .priceText {
+         margin-right: 10px;
+         font-size: 15px;
+    }
+     .calText p {
+         font-size: 12px;
+         line-height: 21px;
+         margin-bottom: 0px;
+    }
+}
+ @media only screen and (max-width:1199px){
+     .loginArea {
+         max-width: 500px;
+    }
+     h1{
+         font-size: 38px;
+    }
+     h2 {
+         font-size: 30px;
+    }
+     h3 {
+         font-size: 22px;
+    }
+     p{
+         font-size: 16px;
+    }
+     p.large {
+         font-size: 20px;
+    }
+     .welcomeArea h1 {
+         letter-spacing: 3px;
+    }
+     .socialLogin button {
+         padding: 7px 10px;
+         font-size: 16px;
+    }
+     .socialLogin button i {
+         margin-right: 5px;
+         font-size: 18px;
+    }
+     .donotAccount, .socialLogin label {
+         font-size: 14px;
+    }
+     .addressWrap .address.addnew {
+         max-width: 125px;
+         padding: 15px;
+    }
+     .addressWrap .address {
+         max-width: 225px;
+         padding: 15px;
+    }
+     .addressWrap .address .badgeData {
+         padding: 5px 10px;
+         right: 15px;
+    }
+     .addressWrap .address.addnew h6 {
+         font-size: 14px;
+         text-align: center;
+    }
+     .tabsMain button::before {
+         background-size: 140px !important;
+         top: -8px !important;
+    }
+     .tabsMain button {
+         font-size: 14px;
+         padding: 5px 7px;
+    }
+     .calanderIcon {
+         width: 30px;
+         height: 30px;
+         top: 0;
+    }
+}
+ @media only screen and (max-width:991px){
+     .playerInfo input {
+         max-width: calc(100% / 4 - 5px);
+    }
+     .selectArea .catSelect {
+         max-width: calc(100% / 3 - 5px);
+    }
+     .btnBottom button {
+         width: 180px;
+         margin-left: 15px;
+         font-size: 16px;
+    }
+     .dataContent::before {
+         width: 250px;
+         height: 309px;
+         background-size: cover;
+    }
+     .profileImage {
+         margin-left: 30px;
+    }
+     .cartMain img {
+         margin-right: 25px;
+    }
+     .catSelect select {
+         width: 250px;
+    }
+     .scrollArea {
+         max-width: calc(100% - 60px);
+    }
+     .calanderIcon {
+         right: 0;
+    }
+     .sliderAreaSingle .slick-arrow.slick-prev {
+         left: -25px;
+    }
+     .sliderAreaSingle .slick-arrow.slick-next {
+         right: -25px;
+    }
+     .cartTable .priceArea {
+         width: 145px;
+    }
+     .cartTable td {
+         padding: 15px;
+    }
+     .singlePageBlog.participant {
+         margin-top: 30px;
+    }
+     .playerInfo.participant input {
+         max-width: calc(100% / 5 - 5px);
+         font-size: 12px;
+    }
+     .tabContentArea .colArea {
+         max-width: calc(100% / 6 - 5px);
+         margin-right: 5px;
+    }
+     .tabsMain button {
+         margin-bottom: 20px;
+    }
+     .scrollArea {
+         max-width: calc(100% - 40px);
+    }
+     .tabsMain button {
+         font-size: 11px;
+         border-radius: 3px;
+         padding: 4px 7px;
+    }
+     .tabsMain button::before {
+         background-size: 105px !important;
+         top: -1px !important;
+         height: 33px !important;
+    }
+     .headingTime {
+         padding: 8px 10px;
+         font-size: 12px;
+    }
+     .timeSlot .headingTime img {
+         max-width: 13px;
+         margin-right: 5px;
+    }
+     .calText {
+         padding: 10px;
+    }
+     .prices .priceText {
+         margin-right: 7px;
+         font-size: 12px;
+    }
+     .calText p {
+         font-size: 10px;
+         line-height: 17px;
+         margin-bottom: 0px;
+    }
+     .calanderIcon {
+         right: 0;
+         width: 24px;
+         height: 24px;
+         top: 2px;
+    }
+     .calanderIcon img {
+         max-width: 11px;
+    }
+     .scrollArea, .scrollArea + .scrollAreainner {
+         max-width: calc(100% - 25px);
+    }
+.timeSlot {
+	margin-bottom: 5px;
+	margin-right: 5px;
+	max-width: calc(100% / 6 - 5px);
+}
+}
+ @media only screen and (max-width:991px){
+     .menuArea .navbar-toggler {
+         border: 0;
+         box-shadow: none;
+         padding: 0;
+    }
+     .menuArea .navbar-toggler .navbar-toggler-icon {
+         height: 3px;
+         background: #FFF;
+         position: relative;
+         margin: 15px 0;
+         border-radius: 4px;
+    }
+     .menuArea .navbar-toggler .navbar-toggler-icon::before {
+         content: "";
+         width: 40px;
+         height: 3px;
+         background: #FFF;
+         position: absolute;
+         top: -13px;
+         left: 0;
+         border-radius: 5px;
+    }
+     .menuArea .navbar-toggler .navbar-toggler-icon::after {
+         content: "";
+         width: 40px;
+         height: 3px;
+         background: #FFF;
+         position: absolute;
+         bottom: -13px;
+         left: 0;
+         border-radius: 5px;
+    }
+     .menuArea #navbarNav {
+         background: #192233;
+         width: 250px;
+         position: absolute;
+         top: 60px;
+         margin-left: -5px;
+         padding: 25px;
+         border-radius: 10px;
+    }
+     .menuArea #navbarNav .navbar-nav li {
+         padding: 15px 0;
+         border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+     .menuArea #navbarNav .navbar-nav li:last-child{
+         border:0 none;
+    }
+     .menuArea .navbar .navbar-nav .nav-item .nav-link::after {
+         bottom: -16px;
+    }
+     .menuArea #navbarNav .navbar-nav li{
+         margin: 0;
+    }
+     .menuArea .navbar .navbar-nav .nav-item .nav-link::after{
+         display: none;
+    }
+     .menuArea .navbar-toggler .navbar-toggler-icon {
+         width: 20px;
+    }
+     .secureby {
+         margin-bottom: 35px;
+    }
+     .addressWrap .address {
+         max-width: 275px;
+    }
+     .profileMain {
+         padding-left: 15px;
+         padding-top: 30px;
+    }
+     .mainFooter p {
+         font-size: 12px;
+    }
+}
+ @media only screen and (max-width:767px){
+     h1 {
+         font-size: 25px;
+         line-height: 35px;
+    }
+     h2 {
+         font-size: 22px;
+         line-height: 36px;
+    }
+     h3 {
+         font-size: 20px;
+    }
+     p.large {
+         font-size: 18px;
+    }
+     .loginPage {
+         padding: 25px 0;
+    }
+     .loginArea {
+         max-width: 100%;
+         width: 300px;
+         position: relative;
+         z-index: 9;
+    }
+     .logoMain {
+         margin-bottom: 30px;
+    }
+     .logoMain img{
+         max-width: 150px;
+    }
+     .welcomeText {
+         font-size: 16px;
+         line-height: 35px;
+    }
+     .welcomeArea h1 {
+         letter-spacing: 0px;
+    }
+     .loginForm {
+         margin: 25px 0;
+    }
+     .rememberArea {
+         margin-bottom: 20px;
+    }
+     .rememberMe label {
+         font-size: 14px;
+    }
+     .forgotPwd {
+         font-size: 14px;
+    }
+     .loginForm input[type="submit"] {
+         font-size: 16px;
+    }
+     .socialLogin label {
+         flex: 0 0 100%;
+         text-align: center;
+         margin-bottom: 15px;
+    }
+     .socialLogin {
+         flex-wrap: wrap;
+         justify-content: center !important;
+    }
+     .socialLogin button {
+         width: 100%;
+         margin-bottom: 15px;
+    }
+     .donotAccount {
+         margin-bottom: 20px;
+    }
+     .loginPage::before {
+         width: 100px;
+         height: 122px;
+    }
+     .formfield input {
+         font-size: 15px;
+    }
+     .selectArea .catSelect {
+         max-width: 100%;
+         margin-bottom: 15px;
+    }
+     .selectArea {
+         margin-bottom: 25px;
+         flex-wrap: wrap;
+    }
+     .selectArea .catSelect select{
+         font-size: 16px;
+    }
+     .playerInfo input {
+         max-width: 100%;
+         margin-bottom: 15px;
+         font-size: 16px;
+    }
+     .btnBottom button {
+         margin-left: 10px;
+         padding: 0 15px;
+         font-size: 15px;
+         width:150px;
+         margin-bottom: 15px;
+    }
+     .btnBottom {
+         padding-top: 0;
+    }
+     .calanderIcon {
+         right: 0;
+    }
+     .catTopMain {
+         flex-direction: column;
+         justify-content: flex-start !important;
+         align-items: flex-start !important;
+    }
+     .catTopMain .catSelect select {
+         width: 100%;
+    }
+     .catTopMain .catSelect{
+         width: 100%;
+         margin-top:15px;
+    }
+     .mainHeader .container {
+         padding: 0 15px;
+    }
+     .profileImage img {
+         max-width: 30px;
+    }
+     .profileImage {
+         margin-left: 15px;
+    }
+     .cartMain {
+         font-size: 10px;
+         align-items: center;
+    }
+     .cartMain img {
+         margin-right: 10px;
+         max-width: 15px;
+    }
+     .counting {
+         width: 15px;
+         height: 15px;
+         font-size: 10px;
+         left: 10px;
+         top: -8px;
+    }
+     .mainHeader.darkHeader .blueLogo {
+         max-width: 85px;
+    }
+     .mainHeader .d-flex {
+         height: 80px;
+    }
+     .navbar-brand::after {
+         width: 165px;
+         height: 28px;
+         bottom: -10px;
+         left: 4px;
+         background-size: cover;
+    }
+     .bannerAdmin {
+         padding: 45px 0;
+    }
+     .sliderAreaSingle .slick-arrow{
+         z-index: 9;
+    }
+     .sliderAreaSingle .slick-arrow.slick-prev {
+         left: 10px;
+    }
+     .sliderAreaSingle .slick-arrow.slick-next {
+         right: 10px;
+    }
+     .btnBottom button {
+         margin-bottom: 0;
+    }
+     .textAreaSingle {
+         margin-bottom: 30px;
+    }
+     .selectArea .catSelect:last-child, .playerInfo input:last-child{
+         margin-bottom: 0px;
+    }
+     .textAreaSingle p:last-child{
+         margin-bottom:0px;
+    }
+     .quantity.buttons_added .minus, .quantity.buttons_added .plus {
+         padding: 7px 12px 8px;
+    }
+     .cartTable td:first-child {
+         width: 70px;
+    }
+     .cartTable td:first-child img{
+         max-width:100%;
+         border-radius: 5px;
+    }
+     .cartTable .description h6 {
+         font-size: 12px;
+    }
+     .cartTable .description .sloganText {
+         font-weight: 500;
+         line-height: 12px;
+         font-size: 12px;
+    }
+     .cartTable .description p {
+         font-size: 12px;
+         line-height: 20px;
+    }
+     .cartTable .priceCart, .quantity .input-text.qty {
+         font-size: 14px;
+    }
+     .carttotal tr td {
+         font-size: 14px;
+         line-height: 38px;
+    }
+     .carttotal tfoot td + td {
+         font-size: 18px;
+    }
+     .emptyCartArea .col-md-6 > img{
+         margin-bottom: 20px;
+    }
+     .emptyCartArea{
+         padding: 25px 0;
+    }
+     .addressWrap {
+         flex-direction: column;
+         flex-wrap: wrap;
+         margin-bottom: 25px;
+    }
+     .addressWrap .address {
+         max-width: 100%;
+         margin-bottom: 15px;
+    }
+     .addressWrap .address.addnew {
+         max-width: 100%;
+    }
+     .cardPayment {
+         flex-direction: column;
+         justify-content: flex-start !important;
+         align-items: flex-start !important;
+    }
+     .cardPayment p{
+         margin-bottom: 15px;
+    }
+     .paymentForm .formfield.half {
+         flex: 0 0 100%;
+    }
+     .cartSideBtn.checkout {
+         flex-wrap: wrap;
+    }
+     .cartSideBtn.checkout .checkout {
+         flex: 0 0 100%;
+         max-width: 100%;
+    }
+     .cartSideBtn.checkout .checkout.clearCart {
+         margin-bottom: 15px;
+    }
+     .secureby img {
+         max-width: 70px;
+    }
+     .secureby p {
+         font-size: 11px;
+         line-height: 16px;
+         margin-left: 15px;
+    }
+     .playerInfo.participant input {
+         max-width: 100%;
+         font-size: 14px;
+    }
+     .btnBottom.signUp .addBtn {
+         width: 100%;
+    }
+     .btnBottom.signUp {
+         flex-wrap: wrap;
+    }
+     .btnBottom.signUp .cart {
+         margin: 15px 0 0;
+         width: 100%;
+    }
+     .titleSignup span {
+         padding-left: 5px;
+    }
+     .mainFooter p a {
+         padding: 0 5px;
+    }
+     .mainFooter p {
+         font-size: 12px;
+         text-align: center;
+         margin-bottom: 15px;
+    }
+     .mainFooter .socialIcons {
+         justify-content: center;
+    }
+     .mainFooter .socialIcons img{
+         max-width: 35px;
+    }
+     .customerProfile .menuLeft ul a img {
+         margin-right: 10px;
+    }
+     .customerProfile .menuLeft ul a {
+         font-size: 15px;
+    }
+     .imageTitle {
+         padding: 20px 0px 30px;
+    }
+     .titleData {
+         margin-left: 15px;
+    }
+    /*.tabsMain button {
+         font-size: 10px;
+         padding: 4px 2px;
+    }
+     .tabsMain button::before {
+         background-size: 100px !important;
+         top: -2px !important;
+         height: 33px !important;
+    }
+     .headingTime {
+         padding: 6px 5px 4px;
+         font-size: 12px;
+    }
+    */
+
+     .scrollArea, .scrollArea + .scrollAreainner {
+	max-width: 100%;
+         width: 100%;
+}
+     .scrollArea + .scrollAreainner {
+	padding-left: 5px;
+}
+     .tabContentArea .colArea {
+         max-width: 100%;
+         width: 100%;
+         margin: 0 24px;
+    }
+     .timeSlot {
+         border-radius: 5px;
+    }
+     .calText {
+         padding: 5px;
+    }
+     .prices .priceText {
+         margin-right: 10px;
+         font-size: 14px;
+    }
+     .tabsMain button.btnMain {
+         display: block;
+         padding: 0;
+         margin: 0;
+         top: 0;
+         width: 20px;
+         background: #FFF;
+         padding: 7.5px 5px;
+         font-size: 18px;
+         text-align: center;
+    }
+     .tabsMain button:hover span, .tabsMain button.active span {
+         color: #000;
+    }
+     .tabsMain button::before{
+         display: none;
+    }
+     .calanderIcon {
+         display: none;
+    }
+     .tabsMain button {
+         font-size: 15px;
+         border-radius: 3px;
+         padding: 10px 15px;
+         margin-bottom: 10px;
+    }
+     .timeSlot {
+         border-radius: 5px;
+         width: calc(50% - 5px);
+         float: left;
+    }
+
+     .calText p {
+         font-size: 12px;
+         line-height: 20px;
+         margin-bottom: 0px;
+    }
+     .dataContent::before {
+         width: 150px;
+         height: 150px;
+         background-size: cover;
+    }
+     .tabContentArea {
+         margin-top: 0;
+    }
+     .timeSlot {
+	border-radius: 5px;
+	width: calc(50% - 5px);
+	float: left;
+	max-width: calc(100% / 2 - 5px);
+}
+}
+ @media only screen and (max-width:567px){
+     .cartTable tr{
+         display: flex;
+         flex-wrap: wrap;
+         position: relative;
+    }
+     .cartTable tr td:first-child{
+         border-radius: 10px 0 0 0;
+         flex: 0 0 120px;
+    }
+     .cartTable tr td:nth-child(2){
+         border-radius: 0px 10px 0 0;
+         flex: 0 0 calc(100% - 120px);
+    }
+     .cartTable tr td:nth-child(3){
+         border-radius: 0px 0px 0 10px;
+         flex: 0 0 50%;
+    }
+     .cartTable tr td:nth-child(4){
+         border-radius: 0px 0px 10px 0px;
+         flex: 0 0 50%;
+         font: 18px;
+         text-align: right;
+    }
+     .cartTable .description {
+         max-width: 100%;
+         margin-left: 0;
+    }
+     .cartTable tr td:last-child {
+         position: absolute;
+         padding: 0;
+         width: 25px;
+         height: 25px;
+         border-radius: 50%;
+         right: -5px;
+         border: 1px solid #eee;
+         top: -8px;
+         text-align: center;
+    }
+     .cartTable tr td:last-child img{
+         max-width: 14px;
+         margin-top: -4px;
+    }
+     .cartTable .priceCart {
+         font-size: 18px;
+         font-weight: bold;
+         padding: 10px 0 0;
+    }
+     .cartTable thead{
+         display: none;
+    }
+     .cartTable .description h6 {
+         font-size: 15px;
+    }
+     .cartTable .description .sloganText {
+         line-height: 20px;
+         font-size: 15px;
+    }
+     .cartTable .description p {
+         font-size: 15px;
+         line-height: 26px;
+    }
+     .signuptable{
+         min-width:600px;
+    }
+     .scrollArea {
+         max-width: 100%;
+    }
+}
